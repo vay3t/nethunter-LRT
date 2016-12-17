@@ -49,21 +49,21 @@ sleep 3
 
 # File Transfer
 echo -e "Sending Kali Nethunter zip to the device"
-adb push -p $nhZip $sdnh 2>/dev/null ||
-	adb push $nhZip $sdnh
+#adb push -p $nhZip $sdnh 2>/dev/null ||
+	#adb push $nhZip $sdnh
 sleep 3
 echo -e "Sending Kali Nethunter zip to the device ...DONE\n"
 
 echo -e "Sending SuperSu zip to the device"
-adb push -p $superSuZip $sdSupersu 2>/dev/null ||
-  adb push $superSuZip $sdSupersu
+#adb push -p $superSuZip $sdSupersu 2>/dev/null ||
+  #adb push $superSuZip $sdSupersu
 sleep 3
 echo -e "Sending SuperSu zip to the device ...DONE\n"
 
 
 # Preparing device
 echo -e "Rebooting into bootloader"
-adb reboot bootloader
+#adb reboot bootloader
 sleep 5
 echo -e "Rebooting into bootloader ...DONE\n"
 
