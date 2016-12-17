@@ -42,7 +42,7 @@ cd $romExtractionDir/*
 echo -e "cd to $romExtractionDir ...DONE\n"
 
 echo -e "Rebooting into bootloader"
-adb reboot bootloader
+#adb reboot bootloader
 sleep 5
 echo -e "Rebooting into bootloader ...DONE\n"
 
