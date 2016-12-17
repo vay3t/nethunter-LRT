@@ -41,6 +41,6 @@ doCommonChecks () {
     isProgramInPath fastboot
 
     echo -e "Adb connection check"
-    isAdbConnected
+    #isAdbConnected
     echo -e "Adb connection check ...DONE\n"
 }
